@@ -90,8 +90,8 @@ packages:
     peerDependencies:
       '@octokit/core': '>=6'
 
-  '@octokit/plugin-paginate-rest@11.4.2':
-    resolution: {integrity: sha512-BXJ7XPCTDXFF+wxcg/zscfgw2O/iDPtNSkwwR1W1W5c4Mb3zav/M2XvxQ23nVmKj7jpweB4g8viMeCQdm7LMVA==}
+  '@octokit/plugin-paginate-rest@11.4.3':
+    resolution: {integrity: sha512-tBXaAbXkqVJlRoA/zQVe9mUdb8rScmivqtpv3ovsC5xhje/a+NOCivs7eUhWBwCApJVsR4G5HMeaLbq7PxqZGA==}
     engines: {node: '>= 18'}
     peerDependencies:
       '@octokit/core': '>=6'
@@ -209,7 +209,7 @@ snapshots:
       '@octokit/auth-unauthenticated': 6.1.2
       '@octokit/core': 6.1.4
       '@octokit/oauth-app': 7.1.6
-      '@octokit/plugin-paginate-rest': 11.4.2(@octokit/core@6.1.4)
+      '@octokit/plugin-paginate-rest': 11.4.3(@octokit/core@6.1.4)
       '@octokit/types': 13.8.0
       '@octokit/webhooks': 13.6.1
 
@@ -303,7 +303,7 @@ snapshots:
     dependencies:
       '@octokit/core': 6.1.4
 
-  '@octokit/plugin-paginate-rest@11.4.2(@octokit/core@6.1.4)':
+  '@octokit/plugin-paginate-rest@11.4.3(@octokit/core@6.1.4)':
     dependencies:
       '@octokit/core': 6.1.4
       '@octokit/types': 13.8.0
@@ -345,7 +345,7 @@ snapshots:
   '@octokit/rest@21.1.1':
     dependencies:
       '@octokit/core': 6.1.4
-      '@octokit/plugin-paginate-rest': 11.4.2(@octokit/core@6.1.4)
+      '@octokit/plugin-paginate-rest': 11.4.3(@octokit/core@6.1.4)
       '@octokit/plugin-request-log': 5.3.1(@octokit/core@6.1.4)
       '@octokit/plugin-rest-endpoint-methods': 13.3.1(@octokit/core@6.1.4)
 
@@ -401,7 +401,7 @@ snapshots:
       '@octokit/core': 6.1.4
       '@octokit/oauth-app': 7.1.6
       '@octokit/plugin-paginate-graphql': 5.2.4(@octokit/core@6.1.4)
-      '@octokit/plugin-paginate-rest': 11.4.2(@octokit/core@6.1.4)
+      '@octokit/plugin-paginate-rest': 11.4.3(@octokit/core@6.1.4)
       '@octokit/plugin-rest-endpoint-methods': 13.3.1(@octokit/core@6.1.4)
       '@octokit/plugin-retry': 7.1.4(@octokit/core@6.1.4)
       '@octokit/plugin-throttling': 9.4.0(@octokit/core@6.1.4)
